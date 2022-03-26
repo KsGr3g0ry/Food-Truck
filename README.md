@@ -1,12 +1,14 @@
 ### Created by Vivek Varadarajan and Gregory Brothers
 *Created with Spring init containing JPA, Web, Flyaway, Postgres dependencies
 *Added Cypress framework for testing.
+*This is just for building the reps you need to be successful. Have fun with this and let's see what you can do!
 
 ### Setup
 * Fork this repo to your GitHub account and pull it to your laptop.
 * Build and run the codebase on your laptop.
-* Run `docker run -d -p 5432:5432 --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres`(Change ports to if needed)
+* Run `docker run -d -p 5432:5432 --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres`(Change ports and password if needed)
 * Change to /frontend and run `yarn install`
+* Check application.yaml for container port.
 
 # Food Truck Project
 Foodies United, a large food truck vendor, needs to web application to show potential clients what they offer.
